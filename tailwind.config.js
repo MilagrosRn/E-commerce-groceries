@@ -6,6 +6,7 @@ module.exports = {
   // darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
+      transparent:'transparent',
       current: 'currentColor',
       'white': '#ffffff',
       'orange': {
@@ -20,6 +21,9 @@ module.exports = {
       },
       'red':{
         100: '#f7391c'
+      },
+      'gris':{
+        100:'#878787'
       }
   }
 
