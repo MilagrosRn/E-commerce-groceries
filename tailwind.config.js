@@ -12,7 +12,7 @@ module.exports = {
       'orange': {
         100: '#ffd400',
         200: '#ffe20a',
-        300: '#FF9D00',
+        300: '#46760A',
       },
       'green':{
         100: '#bfd200',

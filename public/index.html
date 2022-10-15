@@ -24,7 +24,7 @@
     shadow-lg
     navbar navbar-expand-lg navbar-light
     ">
-        <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+        <div class="container-fluid w-full flex flex-wrap items-center justify-center px-6">
             <button class="
         navbar-toggler
         text-gray-500
@@ -54,7 +54,7 @@
           lg:mt-0
           mr-1
         " href="#">
-                    <img src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png" style="height: 15px"
+                    <img src="../public/img/logo.png" style="height: 40px"
                         alt="" loading="lazy" />
                 </a>
                 <!-- Left links -->
@@ -64,11 +64,11 @@
                     </li>
                     <li class="nav-item p-2">
                         <a class="nav-link text-white hover:text-orange-100 focus:text-gray-700 p-0"
-                            href="#">Productos</a>
+                            href="products.html">Productos</a>
                     </li>
                     <li class="nav-item p-2">
                         <a class="nav-link text-white hover:text-orange-100 focus:text-gray-700 p-0"
-                            href="#">Contactanos</a>
+                            href="contactanos.html">Contactanos</a>
                     </li>
                 </ul>
                 <!-- Left links -->
@@ -93,15 +93,16 @@
             <div class="flex items-center relative">
                 <!-- Icons rigth -->
 
-                <a class="dropdown-toggle flex items-center hidden-arrow " href="#" id="dropdownMenuButton2"
-                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a    class=" flex items-center hidden-arrow " href="log-in.html" 
+              
+                    role="button">
                     <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" class="rounded-full"
                         style="height: 25px; width: 25px" alt="" loading="lazy" />
 
                 </a>
                 <h3 class="text-white text-base ml-3">Mi cuenta</h3>
             </div>
-            <div class="dropdown relative">
+            <!-- <div class="dropdown relative">
                 <a class="
             text-gray-500
             hover:text-gray-700
@@ -119,79 +120,147 @@
                         </path>
                     </svg>
                     <span class="text-gray-700 bg-red-100 absolute rounded-full text-xs -mt-2.5 ml-2 py-0 px-1.5">1</span>
-                </a>
+                </a> -->
 
 
-
-                <ul class="
-        dropdown-menu
-        min-w-max
-        absolute
-        hidden
-        bg-white
-        text-base
-        z-50
-        float-left
-        py-2
-        list-none
-        text-left
-        rounded-lg
-        shadow-lg
-        mt-1
-        hidden
-        m-0
-        bg-clip-padding
-        border-none
-        left-auto
-        right-0
-      " aria-labelledby="dropdownMenuButton1">
-                    <li>
-                        <a class="
-            dropdown-item
-            text-sm
-            py-2
-            px-4
-            font-normal
-            block
-            w-full
-            whitespace-nowrap
-            bg-transparent
-            text-gray-700
-            hover:bg-gray-100
-          " href="#">Action</a>
-                    </li>
-                    <li>
-                        <a class="
-            dropdown-item
-            text-sm
-            py-2
-            px-4
-            font-normal
-            block
-            w-full
-            whitespace-nowrap
-            bg-transparent
-            text-gray-700
-            hover:bg-gray-100
-          " href="#">Another action</a>
-                    </li>
-                    <li>
-                        <a class="
-            dropdown-item
-            text-sm
-            py-2
-            px-4
-            font-normal
-            block
-            w-full
-            whitespace-nowrap
-            bg-transparent
-            text-gray-700
-            hover:bg-gray-100
-          " href="#">Something else here</a>
-                    </li>
-                </ul>
-
+                <div class="flex justify-center">
+                  <div>
+                    <div class="dropdown relative">
+                      <button
+                        class="
+                          dropdown-toggle
+                          px-6
+                          py-2.5
+                          bg-blue-600
+                          text-white
+                          font-medium
+                          text-xs
+                          leading-tight
+                          uppercase
+                          rounded
+                          shadow-md
+                          hover:bg-blue-700 hover:shadow-lg
+                          focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
+                          active:bg-blue-800 active:shadow-lg active:text-white
+                          transition
+                          duration-150
+                          ease-in-out
+                          flex
+                          items-center
+                          whitespace-nowrap
+                        "
+                        type="button"
+                        id="dropdownMenuButton1tx"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                      <!-- carrito -->
+                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="shopping-cart" class="w-6 text-white -ml-3"
+                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path fill="currentColor"
+                            d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z">
+                        </path>
+                    </svg>
+                    <!-- items cantidad carrito -->
+                    <span class="text-gray-700 bg-red-100 absolute rounded-full text-xs -mt-2.5 ml-2 py-0 px-1.5">1</span>
+                       <!--icono trinagulo carrito -->
+                    <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          data-prefix="fas"
+                          data-icon="caret-left"
+                          class="w-1.5 mr-2"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 320 512"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                          ></path>
+                        </svg>
+                      </button>
+                      <ul
+                        class="
+                          dropdown-menu
+                          min-w-max
+                          absolute
+                          hidden
+                          bg-white  
+                          text-base
+                          z-50
+                          float-right
+                          py-2
+                          list-none
+                          text-left
+                          rounded-lg
+                          shadow-lg
+                          mt-1
+                          hidden
+                          m-0
+                          bg-clip-padding
+                          border-none
+                        "
+                        aria-labelledby="dropdownMenuButton1tx"
+                      >
+                        <span
+                          class="
+                            text-sm
+                            py-2
+                            px-4
+                            font-normal
+                            block
+                            w-full
+                            whitespace-nowrap
+                            bg-transparent
+                            text-gray-700
+                          "
+                          >Mi pedido</span
+                        >
+        
+                        <li>
+                          <a
+                            class="
+                              dropdown-item
+                              text-sm
+                              py-2
+                              px-4
+                              font-normal
+                              block
+                              w-full
+                              whitespace-nowrap
+                              bg-transparent
+                              text-gray-700
+                              hover:bg-gray-100
+                            "
+                            href="#"
+                            >Action</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="
+                              dropdown-item
+                              text-sm
+                              py-2
+                              px-4
+                              font-normal
+                              block
+                              w-full
+                              whitespace-nowrap
+                              bg-transparent
+                              text-gray-700
+                              hover:bg-gray-100
+                            "
+                            href="#"
+                            >Another action</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+               
 
             </div>
     </nav>
@@ -224,36 +293,19 @@
           <div class="carousel-item active relative float-left w-full">
             <img
               src="./img/banner1.jpg"
-              class="block w-full h-96"
+              class="block w-full h-80"
               alt="..."
             />
-            <div class="carousel-caption hidden md:block absolute text-center">
-              <h5 class="text-xl">First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
+           
           </div>
           <div class="carousel-item relative float-left w-full">
             <img
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
-              class="block w-full"
-              alt="..."
+              src="./img/CierraPuertas_web 2.png"
+              class="block w-full h-80"
             />
-            <div class="carousel-caption hidden md:block absolute text-center">
-              <h5 class="text-xl">Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
+           
           </div>
-          <div class="carousel-item relative float-left w-full">
-            <img
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
-              class="block w-full"
-              alt="..."
-            />
-            <div class="carousel-caption hidden md:block absolute text-center">
-              <h5 class="text-xl">Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
+         
         </div>
         <button
           class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
@@ -275,6 +327,9 @@
         </button>
       </div>
 </section>
+<div id="banner2" class="w-full">
+  <img src="./img/image 2.png" width="100%" alt="">
+ </div>
 <section id="favorites">
     <!-- subtitulo -->
     <div class="flex justify-around flex-col mt-9 ">
@@ -383,11 +438,9 @@
         </div>
 
 
-       <div id="banner2" class="w-full">
-        <img src="./img/image 2.png" alt="">
-       </div>
+      
 
-       <footer class="text-center lg:text-left bg-gray-100 text-gray-600">
+       <footer class="text-center lg:text-left bg-orange-300 text-white">
         <!-- redes -->
         <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
           <div class="mr-12 hidden lg:block">
