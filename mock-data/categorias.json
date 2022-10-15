@@ -1,0 +1,15 @@
+{
+    "productos": [
+        {
+            "aceite": [
+                "Aceites vegetales",
+                "Aceites especiales",
+                "Aceites de oliva",
+                "Mantecas"
+            ]
+        },
+        {
+            "alimentos en conserva": []
+        }
+    ]
+}

@@ -10,6 +10,7 @@ module.exports = {
       current: 'currentColor',
       'white': '#ffffff',
       'orange': {
+        50:'#C8DEB3',
         100: '#ffd400',
         200: '#ffe20a',
         300: '#46760A',
@@ -23,7 +24,8 @@ module.exports = {
         100: '#f7391c'
       },
       'gris':{
-        100:'#878787'
+        100:'#878787',
+        200:'1F1F1F'
       }
   }
 
