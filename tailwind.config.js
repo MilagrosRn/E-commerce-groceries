@@ -9,6 +9,10 @@ module.exports = {
       transparent:'transparent',
       current: 'currentColor',
       'white': '#ffffff',
+      'yellow':{
+        100:'#FFFAC3',
+        200:'#AA6207'
+      },
       'orange': {
         50:'#C8DEB3',
         100: '#ffd400',
@@ -35,6 +39,7 @@ module.exports = {
   variants: {
   },
   plugins: [
-    require('tw-elements/dist/plugin.js')
+    require('tw-elements/dist/plugin.js'),
+    require('@tailwindcss/forms'),
   ]
 }
