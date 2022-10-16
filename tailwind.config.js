@@ -24,15 +24,16 @@ module.exports = {
         100: '#f7391c'
       },
       'gris':{
+        25:'#F8F8F8',
+        50:'#BABABA',
         100:'#878787',
-        200:'1F1F1F'
+        200:'#1F1F1F'
       }
   }
 
 },
-  // variants: {
-  //   extend: {},
-  // },
+  variants: {
+  },
   plugins: [
     require('tw-elements/dist/plugin.js')
   ]
