@@ -2500,6 +2500,11 @@ textarea.form-control.is-invalid {
   margin-right: auto;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -2630,6 +2635,10 @@ textarea.form-control.is-invalid {
 
 .mb-1 {
   margin-bottom: 0.25rem;
+}
+
+.mt-1\.5 {
+  margin-top: 0.375rem;
 }
 
 .block {
@@ -2805,6 +2814,14 @@ textarea.form-control.is-invalid {
   width: max-content;
 }
 
+.w-\[25\%\] {
+  width: 25%;
+}
+
+.w-auto {
+  width: auto;
+}
+
 .min-w-max {
   min-width: -moz-max-content;
   min-width: max-content;
@@ -2855,6 +2872,12 @@ textarea.form-control.is-invalid {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.scale-50 {
+  --tw-scale-x: .5;
+  --tw-scale-y: .5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -2867,6 +2890,10 @@ textarea.form-control.is-invalid {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-row-reverse {
@@ -2929,6 +2956,10 @@ textarea.form-control.is-invalid {
   white-space: nowrap;
 }
 
+.break-words {
+  overflow-wrap: break-word;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -2939,6 +2970,10 @@ textarea.form-control.is-invalid {
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
 }
 
 .rounded-t-lg {
@@ -3087,6 +3122,11 @@ textarea.form-control.is-invalid {
   background-color: rgb(170 98 7 / var(--tw-bg-opacity));
 }
 
+.bg-gris-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(186 186 186 / var(--tw-bg-opacity));
+}
+
 .bg-clip-padding {
   background-clip: padding-box;
 }
@@ -3207,6 +3247,21 @@ textarea.form-control.is-invalid {
 .px-3\.5 {
   padding-left: 0.875rem;
   padding-right: 0.875rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+.py-px {
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 .pl-0 {
