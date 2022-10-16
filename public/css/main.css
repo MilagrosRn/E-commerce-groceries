@@ -2641,6 +2641,10 @@ textarea.form-control.is-invalid {
   margin-top: 0.375rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .block {
   display: block;
 }
